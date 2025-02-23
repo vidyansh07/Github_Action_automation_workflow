@@ -22,7 +22,7 @@ export default function Navbar() {
                 <a href="#" className="mr-4">Home</a>
                 <a href="#" className="mr-4">About</a>
                 <a href="#" className="mr-4">Services</a>
-                <a href="#" className="mr-4">Contact</a>
+                <a href="/contact" className="mr-4">Contact</a>
                 <a href="#" className="mr-4">Projects</a>
                 <button className="mr-4 bg-green-500 text-white px-4 py-2 rounded">Sign In</button>
                 <button className="bg-blue-500 text-white px-4 py-2 rounded">Sign Up</button>
