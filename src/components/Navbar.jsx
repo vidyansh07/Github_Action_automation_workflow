@@ -1,16 +1,4 @@
 import React from 'react'
-// create a beautiful navbar component here and export it
-// it should have the following structure
-// logo home, about, services, contact, projects, signin and signup buttons, 
-// all in a horizontal layout
-// use tailwind css for styling
-// use the logo from the assets folder
-// make it mobile friendly
-// make it responsive
-// make it beautiful
-// dont use button for every link only signin and signup should be buttons
-// use a tags for the rest of the links
-// make it stick to buttom on scroll
 export default function Navbar() {
     return (
         <div className="flex justify-between items-center w-full bg-gray-800 p-4 text-white sticky top-0">

@@ -11,9 +11,6 @@ function App() {
   return (
     <>
     <div className="text-white"> 
-    {/* <Navbar />  
-       <HeroSection />
-    <Footer /> */}
     <Routes>
       <Route path="/" element={
         
@@ -21,7 +18,6 @@ function App() {
         } />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      {/* <Route path="/*" element={<HeroSection />} /> */}
     </Routes>
     </div>
     </>
