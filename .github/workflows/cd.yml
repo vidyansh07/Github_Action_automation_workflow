@@ -18,8 +18,9 @@ jobs:
                 node-version: 22
             
             - name: "install vercel cli"
-              run: npm install -g vercel
-              
+              run: |
+                  npm install -g vercel
+                  vercel telemetry disable
             - name: "Download artifact"
               uses: actions/download-artifact@v4
               with:
